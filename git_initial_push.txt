@@ -1,1 +1,5 @@
- git remote add origin https://aussie114:{TOKEN}@github.com/aussie114/example.git
+git init
+git add -A
+git commit -m "initial commit"
+git remote add origin https://aussie114:{TOKEN}@github.com/aussie114/example.git
+git push -u origin master
