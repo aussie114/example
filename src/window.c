@@ -19,7 +19,6 @@ void create_window(GtkApplication * program)
 {
 	window   = gtk_application_window_new(program);
 	gtk_window_set_title        ( GTK_WINDOW (window), "Window");
-	gtk_window_set_default_size ( GTK_WINDOW (window), 200, 200);
 	gtk_window_set_resizable    ( GTK_WINDOW (window), FALSE);
 
 	GtkEventController * controller = gtk_event_controller_key_new();
